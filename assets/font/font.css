@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'FS Axiforma';
+    src: url('FSAxiformaBold.eot');
+    src: url('FSAxiformaBold.eot?#iefix') format('embedded-opentype'),
+        url('FSAxiformaBold.woff2') format('woff2'),
+        url('FSAxiformaBold.woff') format('woff'),
+        url('FSAxiformaBold.ttf') format('truetype'),
+        url('FSAxiformaBold.svg#FSAxiformaBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Axiforma';
+    src: url('FSAxiformaLight.eot');
+    src: url('FSAxiformaLight.eot?#iefix') format('embedded-opentype'),
+        url('FSAxiformaLight.woff2') format('woff2'),
+        url('FSAxiformaLight.woff') format('woff'),
+        url('FSAxiformaLight.ttf') format('truetype'),
+        url('FSAxiformaLight.svg#FSAxiformaLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FS Axiforma';
+    src: url('FSAxiformaRegular.eot');
+    src: url('FSAxiformaRegular.eot?#iefix') format('embedded-opentype'),
+        url('FSAxiformaRegular.woff2') format('woff2'),
+        url('FSAxiformaRegular.woff') format('woff'),
+        url('FSAxiformaRegular.ttf') format('truetype'),
+        url('FSAxiformaRegular.svg#FSAxiformaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,103 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "FS Axiforma";
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.hero {
+  max-width: 100%;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.hero-container {
+  position: relative;
+  height: 100vh;
+}
+.hero-container .hero-img {
+  width: 100%;
+  height: 100%;
+}
+.hero-container .hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-logo {
+  position: absolute;
+  z-index: 99;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-content .content h2 {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "FS Axiforma";
+  margin-bottom: 14px;
+}
+.hero-content .content {
+  text-align: center;
+}
+.hero-content .content p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "FS Axiforma";
+}
+@media (max-width: 991px) {
+  .hero-logo img {
+    width: 157px;
+    height: 48px;
+  }
+  .hero-content {
+    width: calc(100% - 40px);
+  }
+  .hero-content .content h2 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .hero-content .content p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
